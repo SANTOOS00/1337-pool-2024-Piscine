@@ -1,11 +1,11 @@
 #include <unistd.h>
 void ft_print_reverse_alphabet(void)
 {
-    char i = 122;
-    while (i >= 97)
+    char a = 122;
+    while (a >= 97)
     {
-        write(1, &i, 1);
-        i--;
+        write(1, &a, 1);
+        a--;
     }
 }
 int main()

@@ -1,11 +1,13 @@
 #include <unistd.h>
 void ft_print_numbers(void)
 {
-    char i = '0';//
-    while (i <= '9')
+    char a = '0';
+    /*In C language, the character '0' is considered a 
+    character when stored in a variable.*/
+    while (a <= '9')
     {
-        write(1, &i, 1);
-        i++;
+        write(1, &a, 1);
+        a++;
     }
 }
 int main()
