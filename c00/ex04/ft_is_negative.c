@@ -2,7 +2,7 @@
 void ft_is_negative(int n)
 {
     int i = n;
-    if (i / 2 == 0)
+    if (i % 2 == 0)
     {
         write (1, "N", 1);
     }
