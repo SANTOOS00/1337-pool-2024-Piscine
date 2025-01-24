@@ -1,1 +1,1 @@
-# 1337-pool-2024-pis
+# 1337-pool-2024-Piscine
