@@ -9,9 +9,9 @@ void ft_putnbr(int nb)
     {
         write (1,"-2147483648",11);
     }
-    else if (nb < 0 || nb > -2147483648)
+    else if (nb < 0)
     {
-        nb = - nb;
+        nb = -nb;
         ft_putchar('-');
         ft_putnbr(nb);
     }
