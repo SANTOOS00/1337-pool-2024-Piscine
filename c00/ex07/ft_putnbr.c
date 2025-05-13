@@ -25,6 +25,6 @@ void ft_putnbr(int nb)
 }
 int main()
 {
-    ft_putnbr(42);
+    ft_putnbr(-984594);
     return 0;
 }
