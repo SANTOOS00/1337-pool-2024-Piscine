@@ -26,7 +26,7 @@ int ft_atoi(char *str)
 }
 int main(void)
 {
-	char str[] = "  ----+----1234dj567";
+	char str[] = "  ---------1234dj567";
 	printf("%d",ft_atoi(str));
 
 	return 0;

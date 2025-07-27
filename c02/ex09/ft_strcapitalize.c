@@ -2,7 +2,7 @@
 #include <stdio.h>
 void ft_str_char(char *str,int timp)
 {
-    if(timp && *str >= 'z' && *str <= 'z')
+    if(timp && *str >= 'a' && *str <= 'z')
     {
         *str = *str - 32;
     }
@@ -18,7 +18,7 @@ char *ft_strcapitalize(char *str)
     while(str[i] != '\0')
     {
         if((str[i] >= 'A' && str[i] <= 'Z') 
-        || (str[i] >= 'A' && str[i] <= 'Z'))
+        || (str[i] >= 'a' && str[i] <= 'z'))
         {
             ft_str_char(&str[i],timp);
             timp = 0;
